@@ -1,0 +1,119 @@
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	width: 100%;
+	margin:10px;
+}
+table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+table tr:hover {
+	background-color: #ddd;
+}
+table th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+	padding-left: 8px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+table td {
+	padding: 8px;
+}
+/*ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	background-color:#333;
+	}
+	
+li {
+	float:left;
+	}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+	
+li a:hover {
+	background-color: #999;
+	}
+*/
+.warning{
+	padding: 10px;
+	color: white;
+	background-color: red;
+	}
+.popup {
+	display: block;
+	position: fixed;
+	left: 30%;
+	top: 30%;
+	*transform: translate(-50%, -50%);
+	width: 40%;
+	height: 30%;
+	background-color: #808;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+}
+.popup .wrapper {
+	position: relative;
+	left: -50%;
+}
+.popup-form {
+	display: block;
+	position: fixed;
+	left: 15%;
+	top: 10%;
+	*transform: translate(-50%, -50%);
+	width: 70%;
+	height: auto;
+	padding: 20px;
+	background-color: #808;
+	color: white;
+	text-align: left;
+	border-radius: 10px;
+}
+.popup-form form {
+	*margin: 10px;
+	padding: 20px;
+}
+.popup-form button{
+	padding: 10px;
+	background-color:  #04AA6D;
+	color: white;
+	width: 45%;
+}
+.crud {
+	display: inline-block;
+	*display: inline;
+	padding: 0 12px;
+	text-align:center;
+	border-spacing:10px;
+	border-width:5px;
+	border-spacing:5px;
+	border-color:green;
+	#background-color:yellow;
+	text-decoration:none;
+	}
+.crud2 {
+	padding: 6px 18px;
+	margin:10px;
+	font-size:12px;
+	color: white;
+	
+	background-color: #999;
+	border-radius: 6px;
+	text-decoration: none;
+}
+.crud2:hover {
+	background-color: #008CBA;
+}	

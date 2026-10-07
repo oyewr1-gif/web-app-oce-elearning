@@ -1,0 +1,243 @@
+body {
+	margin-top: 80px;
+	font-family:Arial
+	}
+
+/===========  HEADER  ================
+.container {
+  position: absolute;
+  margin: 5px;
+  width: auto;
+  
+}
+
+.container a button{
+  color: white;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 99%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 12px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;//absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav .login-container form {
+	float: right;
+	display: inline-block;
+  padding: 2px;
+  margin-top: 4px;
+  font-size: 17px;
+  color: white;
+  border: none;
+}
+
+.topnav .login-container form input {
+	width: 100px;
+	padding: 4px 6px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+	resize: vertical;
+	font-size: 14px;
+}
+
+.topnav .login-container form .label {
+	color: white;
+}
+/*
+.form input {
+	width: 100%;
+	spacing: 8px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-sizing: border-box;
+	resize: vertical;
+	font-size: 8px;
+}
+*/
+
+.topnav .login-container form button {
+	width: 100px;
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: green;
+  color: white;
+  font-size: 17px;
+	border: none;
+	border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn, .login-container {
+	display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav.responsive .login-container {
+    display: inline;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+	padding: 8px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.col {
+  float: left;
+  flex: 100%;
+  margin-top: 6px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  flex: 25%;
+  margin-top: 6px;
+}
+
+.col-50 {
+  flex: 50%;
+  margin-top: 6px;
+}
+/* Floating column for inputs: 75% width */
+.col-75 {
+  flex: 75%;
+  margin-top: 6px;
+}
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 46px;
+    max-width: 46px;
+}
+
+
